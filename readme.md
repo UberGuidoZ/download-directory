@@ -1,20 +1,22 @@
-# download-directory.github.io <img src="logo.svg" width="50" height="50" align="left">
+# uberguidoz.github.io <img src="logo.svg" width="50" height="50" align="left">
 
 > Download just a sub directory from a GitHub repo
 
-GitHub doesn’t let you download a single folder from a repo, which might be necessary when you just need a few files from a large repository.
+The GitHub website doesn’t let you easily download a single folder from a repo, which can be handy when you just need a few files from a large repository.</p>
 
-This tool will handle the download of all the files in a directory, in a single click, after you entered your token.
+This tool fixes that! Simply enter the folder URL in the box above and hit ENTER on your keyboard.
 
-The download starts automatically when you visit pass the link to the GitHub directory as `url` parameter, like:
+If you have bypassed your token allotment, you can generate a personal one to continue downloading. (Click token above.)
 
-[**download-directory.github.io**`?url=https://github.com/mrdoob/three.js/tree/dev/build`](https://download-directory.github.io/?url=https://github.com/mrdoob/three.js/tree/dev/build)
+You can start a download automatically if you pass the link to the GitHub directory as the <code>url</code> parameter, like:
 
-You can also specify download filename by adding `filename` parameter, like:
+<a href="https://uberguidoz.github.io/download-directory/?url=https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz/Vehicles">
+<strong>uberguidoz.github.io/download-directory/</strong><code>?url=https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz/Vehicles</code></a>
 
-[**download-directory.github.io**`?url=https://github.com/mrdoob/three.js/tree/dev/build&filename=three-js-build`](https://download-directory.github.io/?url=https://github.com/mrdoob/three.js/tree/dev/build&filename=three-js-build) to save the file as **three-js-build.zip**.
+Lastly, you can also specify download filename by adding <code>filename</code> parameter, like:
 
-This is an alternative to the existing [GitZip](https://kinolien.github.io/gitzip/) and [DownGit](https://minhaskamal.github.io/DownGit/) but without the cruft.
+<a href="https://uberguidoz.github.io/download-directory/?url=https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz/Vehicles&filename=Vehicles-SubGHz">
+<strong>uberguidoz.github.io/download-directory/</strong><code>?url=https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz/Vehicles&filename=Vehicles-SubGHz</code></a> to save the file as <strong>Vehicles-SubGHz.zip</strong>.
 
 ## Related
 
